@@ -1,0 +1,51 @@
+.prijslijst-container {
+  display: flex;
+  justify-content: space-evenly;
+  padding-top: 50px;
+}
+
+
+.prijslijst-header {
+  margin-bottom: 60px;
+
+  h1 {
+    display: flex;
+    margin-left: 85px;
+    width: 100%;
+    font-family: 'Work Sans', sans-serif;
+  }
+}
+
+.prijslijst {
+    width: 325px;
+
+    td {
+      width: 175px;
+      padding-bottom: 10px;
+      white-space: nowrap;
+      font-family: 'Work Sans', sans-serif;
+    }
+
+    th {
+      padding: 20px 0 15px 0;
+      width: 100%;
+      font-family: 'Work Sans', sans-serif;
+      font-weight: bold;
+    }
+}
+
+.prijslijst-tekst {
+  position: relative;
+  left: 918px;
+  bottom: 60px;
+
+  p {
+    max-width: 350px;
+    font-size: 12px;
+    font-family: 'Work Sans', sans-serif;
+  }
+}
+
+.numbers {
+  text-align: right;
+}

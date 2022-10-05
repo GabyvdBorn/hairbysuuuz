@@ -10,36 +10,74 @@
     <%= javascript_include_tag "application", "data-turbo-track": "reload", defer: true %>
   </head>
   <body>
-    <div class="hero-overlay"></div>
 
+        <% if current_page?(root_path) %>
+          <div class="hero-overlay">
+             <% else %>
+          <div class="hero-overlay-white">
+         <% end %>
 
-      <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <div class="collapse navbar-collapse" id="navbarNav">
-          <ul class="navbar-nav">
-            <li class="nav-item active">
-            <%= link_to root_path, class: "navbar-title" do %>
-              <h1>HOME</h1>
-            <% end %>
-            </li>
-            <li class="nav-item">
-              <%= link_to prijslijst_path, class: "navbar-title" do %>
-                <h1>PRIJSTLIJST</h1>
-              <% end %>
-            </li>
-            <li class="nav-item">
-              <%= link_to services_path, class: "navbar-title" do %>
-                <h1>SERVICES</h1>
-              <% end %>
-            </li>
-            <li class="nav-item">
-              <%= link_to about_path, class: "navbar-title" do %>
-                <h1>ABOUT</h1>
-              <% end %>
-            </li>
-          </ul>
-        </div>
-      </nav>
+        <% if current_page?(root_path) %>
+          <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                  <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav">
+                      <li class="nav-item active">
+                      <%= link_to root_path, class: "navbar-title" do %>
+                        <h1>Home</h1>
+                      <% end %>
+                      </li>
+                      <li class="nav-item active">
 
+                        <%= link_to prijslijst_path, class: "navbar-title" do %>
+                          <h1>Prijslijst</h1>
+                        <% end %>
+                      </li>
+                      <li class="nav-item active">
+                        <%= link_to services_path, class: "navbar-title" do %>
+                          <h1>Services</h1>
+                        <% end %>
+                      </li>
+                      <li class="nav-item active">
+                        <%= link_to about_path, class: "navbar-title" do %>
+                          <h1>About</h1>
+                        <% end %>
+                      </li>
+                    </ul>
+                  </div>
+                </nav>
+             <% else %>
+                <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                  <div class="collapse navbar-collapse" id="navbarNav-black">
+                    <ul class="navbar-nav">
+                      <li class="nav-item active">
+                      <%= link_to root_path, class: "navbar-title" do %>
+                        <h1>Home</h1>
+                      <% end %>
+                      </li>
+                      <li class="nav-item">
+                        <%= link_to prijslijst_path, class: "navbar-title" do %>
+                          <h1>Prijslijst</h1>
+                        <% end %>
+                      </li>
+                      <li class="nav-item">
+                        <%= link_to services_path, class: "navbar-title" do %>
+                          <h1>Services</h1>
+                        <% end %>
+                      </li>
+                      <li class="nav-item">
+                        <%= link_to contact_path, class: "navbar-title" do %>
+                          <h1>Contact</h1>
+                        <% end %>
+                      </li>
+                      <li class="nav-item">
+                        <%= link_to about_path, class: "navbar-title" do %>
+                          <h1>About</h1>
+                        <% end %>
+                      </li>
+                    </ul>
+                  </div>
+                </nav>
+         <% end %>
       <div class="page-container">
         <%= yield %>
       </div>
