@@ -1,26 +1,28 @@
 // Specific CSS for your home-page
 .logo {
   h1 {
-    font-size: 220px;
+    font-size: 210px;
     font-family: 'Work Sans', sans-serif;
   }
+
   h2 {
-    font-size: 21px;
-    letter-spacing: 4px;
+    font-size: 24px;
+    letter-spacing: 7px;
     position: relative;
-    left: 387px;
-    top: 101px;
+    left: 340px;
+    top: 99px;
     text-transform: uppercase;
     font-weight: 200;
     font-family: 'Work Sans', sans-serif;
   }
+
   h3 {
-    font-size: 14px;
+    font-size: 16px;
     font-weight: 200;
-    letter-spacing: 3px;
+    letter-spacing: 4px;
     position: absolute;
     bottom: 28px;
-    left: 13px;
+    left: 14px;
     text-transform: uppercase;
     font-family: 'Work Sans', sans-serif;
   }
@@ -39,7 +41,7 @@
 .socials {
   display: flex;
   position: relative;
-  top: 515px;
+  top: 545px;
   color: #FCFCFC ;
 
   h1:hover {
@@ -58,11 +60,18 @@
   letter-spacing: 0.25rem;
   margin-left: 16px;
   border: solid;
-  padding: 9px 77px 9px 25px;
-  border-radius: 8px 0px 0px 8px;
+  padding: 9px 77px 9px 40px;
+  border-radius: 25px 0px 0px 25px;
   position: relative;
   left: 0px;
   bottom: 9px;
+}
+
+.socials .navbar-title h1:hover {
+  background-color: #FCFCFC;
+  color: #0A0A0A;
+  border: solid #FCFCFC;
+  transition: 0.4s;
 }
 
 .socials .navbar-expand-lg .navbar-nav {
@@ -77,9 +86,16 @@
   font-size: 24px;
   color: #FCFCFC;
   border: solid;
-  border-radius: 8px;
-  padding: 7px;
+  border-radius: 25px;
+  padding: 8px;
   margin-right: 16px;
+}
+
+.fa-instagram:hover:before {
+  color: #0A0A0A;
+  background-color: #FCFCFC;
+  border: solid #FCFCFC;
+  transition: 0.4s;
 }
 
 .fa-facebook:before {
@@ -87,6 +103,13 @@
   font-size: 24px;
   color: #FCFCFC;
   border: solid;
-  border-radius: 8px;
-  padding: 7px;
+  border-radius: 25px;
+  padding: 8px;
+}
+
+.fa-facebook:hover:before {
+  color: #313131;
+  background-color: #FCFCFC;
+  border: solid #FCFCFC;
+  transition: 0.4s;
 }

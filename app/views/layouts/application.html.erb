@@ -5,7 +5,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <%= csrf_meta_tags %>
     <%= csp_meta_tag %>
-
     <%= stylesheet_link_tag "application", "data-turbo-track": "reload" %>
     <%= javascript_include_tag "application", "data-turbo-track": "reload", defer: true %>
   </head>
@@ -33,11 +32,6 @@
                         <% end %>
                       </li>
                       <li class="nav-item active">
-                        <%= link_to services_path, class: "navbar-title" do %>
-                          <h1>Services</h1>
-                        <% end %>
-                      </li>
-                      <li class="nav-item active">
                         <%= link_to about_path, class: "navbar-title" do %>
                           <h1>About</h1>
                         <% end %>
@@ -60,11 +54,6 @@
                         <% end %>
                       </li>
                       <li class="nav-item">
-                        <%= link_to services_path, class: "navbar-title" do %>
-                          <h1>Services</h1>
-                        <% end %>
-                      </li>
-                      <li class="nav-item">
                         <%= link_to contact_path, class: "navbar-title" do %>
                           <h1>Contact</h1>
                         <% end %>
@@ -77,8 +66,8 @@
                     </ul>
                   </div>
                 </nav>
-         <% end %>
-      <div class="page-container">
+            <% end %>
+          <div class="page-container">
         <%= yield %>
       </div>
   </body>
