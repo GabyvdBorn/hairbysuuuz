@@ -28,7 +28,7 @@
 
     th {
       padding: 20px 0 15px 0;
-      width: 72%;
+      width: 100%;
       font-family: 'Work Sans', sans-serif;
       font-weight: bold;
     }
@@ -37,13 +37,15 @@
 .prijslijst th:nth-child(2) {
   font-weight: normal;
   font-style: italic;
+  font-size: small;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
 
 }
 
 .prijslijst-tekst {
-  position: relative;
-  left: 918px;
-  bottom: 60px;
+  margin-top: 305px ;
 
   p {
     max-width: 350px;
