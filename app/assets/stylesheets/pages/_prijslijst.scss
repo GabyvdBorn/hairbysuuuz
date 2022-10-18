@@ -1,59 +1,62 @@
-.prijslijst-container {
-  display: flex;
-  justify-content: space-evenly;
-  padding-top: 50px;
-}
+@media screen and (min-width: 780px) {
 
-
-.prijslijst-header {
-  margin-bottom: 60px;
-
-  h1 {
+  .prijslijst-container {
     display: flex;
-    margin-left: 85px;
-    width: 100%;
-    font-family: 'Work Sans', sans-serif;
+    justify-content: space-evenly;
+    padding-top: 50px;
   }
-}
 
-.prijslijst {
-    width: 325px;
 
-    td {
-      width: 175px;
-      padding-bottom: 10px;
-      white-space: nowrap;
-      font-family: 'Work Sans', sans-serif;
-    }
+  .prijslijst-header {
+    margin-bottom: 60px;
 
-    th {
-      padding: 20px 0 15px 0;
+    h1 {
+      display: flex;
+      margin-left: 85px;
       width: 100%;
       font-family: 'Work Sans', sans-serif;
-      font-weight: bold;
     }
-}
-
-.prijslijst th:nth-child(2) {
-  font-weight: normal;
-  font-style: italic;
-  font-size: small;
-  display: flex;
-  flex-direction: row;
-  justify-content: flex-end;
-
-}
-
-.prijslijst-tekst {
-  margin-top: 305px ;
-
-  p {
-    max-width: 350px;
-    font-size: 13px;
-    font-family: 'Work Sans', sans-serif;
   }
-}
 
-.numbers {
-  text-align: right;
+  .prijslijst {
+      width: 325px;
+
+      td {
+        width: 175px;
+        padding-bottom: 10px;
+        white-space: nowrap;
+        font-family: 'Work Sans', sans-serif;
+      }
+
+      th {
+        padding: 20px 0 15px 0;
+        width: 100%;
+        font-family: 'Work Sans', sans-serif;
+        font-weight: bold;
+      }
+  }
+
+  .prijslijst th:nth-child(2) {
+    font-weight: normal;
+    font-style: italic;
+    font-size: small;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+
+  }
+
+  .prijslijst-tekst {
+    margin-top: 305px ;
+
+    p {
+      max-width: 350px;
+      font-size: 13px;
+      font-family: 'Work Sans', sans-serif;
+    }
+  }
+
+  .numbers {
+    text-align: right;
+  }
 }
