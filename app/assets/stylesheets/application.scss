@@ -110,14 +110,9 @@
   }
 
   #navbarNav-black h1 {
-    color: #0A0A0A;
+    border: none;
+    color: white;
+    background: #00000061;
   }
-
-  #navbarNav-black .nav-item h1:hover {
-    border-bottom: 1px solid #0A0A0A ;
-    padding-bottom: 2px;
-    transition: 0.2s;
-  }
-
 
 }
