@@ -60,10 +60,53 @@
   .numbers {
     text-align: right;
   }
+
+  .terug {
+    display: none;
+  }
+
+  .table thead {
+    border-style: none;
+  }
+
 }
 
 
 @media screen and (max-width: 779px) {
+
+  .prijslijst-container {
+    max-width: 400px;
+  }
+
+  .prijslijst {
+    margin-bottom: 35px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .table {
+    margin-bottom: 15px;
+    border: none;
+  }
+
+  .prijslijst-tekst {
+    margin-top: 75px;
+  }
+
+  .prijslijst-tekst p {
+    font-size: 12px;
+  }
+
+  td.numbers {
+    justify-content: end;
+    display: flex;
+    flex-direction: row;
+
+  }
+
+  .table tr {
+    border: none;
+  }
 
 
 }
