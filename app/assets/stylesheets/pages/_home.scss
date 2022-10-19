@@ -5,6 +5,7 @@
     h1 {
       font-size: 210px;
       font-family: 'Work Sans', sans-serif;
+      color: #FCFCFC;
     }
 
     h2 {
@@ -16,6 +17,7 @@
       text-transform: uppercase;
       font-weight: 200;
       font-family: 'Work Sans', sans-serif;
+      color: #FCFCFC;
     }
 
     h3 {
@@ -27,6 +29,7 @@
       left: 14px;
       text-transform: uppercase;
       font-family: 'Work Sans', sans-serif;
+      color: #FCFCFC;
     }
   }
 
@@ -48,6 +51,10 @@
 
     h1:hover {
       text-decoration: none;
+    }
+
+    li:nth-child(3) {
+      display: none;
     }
   }
 
@@ -124,6 +131,7 @@
     h1 {
       font-size: 120px;
       font-family: 'Work Sans', sans-serif;
+      color: #FCFCFC;
     }
 
     h2 {
@@ -136,6 +144,7 @@
       text-transform: uppercase;
       font-weight: 200;
       font-family: 'Work Sans', sans-serif;
+      color: #FCFCFC;
     }
 
     h3 {
@@ -147,6 +156,7 @@
       left: 5px;
       text-transform: uppercase;
       font-family: 'Work Sans', sans-serif;
+      color: #FCFCFC;
     }
   }
 
@@ -163,7 +173,7 @@
   .socials {
     display: flex;
     position: relative;
-    top: 315px;
+    top: 150px;
     color: #FCFCFC ;
 
     h1:hover {
@@ -219,7 +229,7 @@
     border: solid;
     border-radius: 30px;
     padding: 10px 11px;
-    margin-right: 25px;
+    margin-right: 16px;
 }
   .fa-facebook:before {
     content: "\f09a";
@@ -228,7 +238,7 @@
     border: solid;
     border-radius: 25px;
     padding: 9px;
-    margin-right: 25px;
+    margin-right: 16px;
   }
 
   .fa-whatsapp:before {
@@ -237,7 +247,7 @@
     border: solid;
     border-radius: 25px;
     padding: 9px;
-    margin-right: 25px;
+    margin-right: 16px;
   }
 
 }
