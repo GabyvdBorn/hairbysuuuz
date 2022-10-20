@@ -1,16 +1,14 @@
-
-<div class="terug">
-<%= link_to "<<" , root_path %>
-</div>
-
-
-
+        <div class="terug-container">
+              <%= link_to root_path, class: "terug" do %>
+                <i>terug</i>
+              <% end %>
+         </div>
 
 
 <div class="prijslijst-container">
-      <div class="prijslijst">
-        <table class="tables">
-          <thead>
+  <div class="prijslijst">
+    <table class="tables">
+      <thead>
             <tr>
               <th>Knippen</th>
               <th></th>
@@ -31,7 +29,8 @@
             </tr>
           </tbody>
         </table>
-        <table>
+              <hr>
+        <table class="tables">
           <thead>
             <tr>
               <th>Fohnen</th>
@@ -53,8 +52,8 @@
             </tr>
           </tbody>
         </table>
-
-        <table>
+          <hr>
+        <table class="tables">
           <thead>
             <tr>
               <th>Knippen & Fohnen</th>
@@ -78,9 +77,10 @@
         </table>
     </div>
 
+    <hr>
 
-    <div class="prijslijst">
-            <table class="tables">
+  <div class="prijslijst">
+        <table class="tables">
           <thead>
             <tr>
               <th>Kleuren</th>
@@ -102,7 +102,10 @@
             </tr>
           </tbody>
         </table>
-        <table>
+
+        <hr>
+
+        <table class="tables">
           <thead>
             <tr>
               <th>High/Low ligths</th>
@@ -128,7 +131,10 @@
             </tr>
           </tbody>
         </table>
-        <table>
+
+          <hr>
+
+        <table class="tables">
           <thead>
             <tr>
               <th>High/Low ligths & Uitgroei</th>
@@ -150,7 +156,10 @@
             </tr>
           </tbody>
         </table>
-    </div>
+  </div>
+
+
+<hr>
 
   <div class="prijslijst">
     <table class="tables">
@@ -177,9 +186,9 @@
     </table>
 
       <div class="prijslijst-tekst">
-<p>* Prijzen bij kleuren kunnen afwijken.
-Dit heeft te maken met de hoeveelheid haar
-en hoeveel product dat er verbruikt wordt.</p>
-</div>
+        <p>* Prijzen bij kleuren kunnen afwijken.
+          Dit heeft te maken met de hoeveelheid haar
+          en hoeveel product dat er verbruikt wordt.</p>
+      </div>
   </div>
 </div>

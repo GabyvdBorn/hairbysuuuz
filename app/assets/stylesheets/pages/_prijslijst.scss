@@ -79,18 +79,12 @@
   }
 
   .prijslijst {
-    margin-bottom: 35px;
     display: flex;
     flex-direction: column;
   }
 
-  .table {
-    margin-bottom: 15px;
-    border: none;
-  }
-
   .prijslijst-tekst {
-    margin-top: 75px;
+    margin-top: 50px;
   }
 
   .prijslijst-tekst p {
@@ -104,9 +98,16 @@
 
   }
 
+  th:nth-child(2) {
+    text-align: end;
+  }
+
   .table tr {
     border: none;
   }
 
+  .terug-container {
+    position: absolute;
+  }
 
 }
