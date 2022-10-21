@@ -9,7 +9,6 @@ application.register("hello", HelloController)
 
 import Carousel from "stimulus-carousel"
 
+
 const application = Application.start()
 application.register("carousel", Carousel)
-
- 
