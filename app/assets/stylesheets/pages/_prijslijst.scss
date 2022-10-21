@@ -1,13 +1,13 @@
 @media screen and (min-width: 780px) {
 
-  .prijslijst-container {
+  .pricelist-container {
     display: flex;
     justify-content: space-evenly;
     padding-top: 50px;
   }
 
 
-  .prijslijst-header {
+  .pricelist-header {
     margin-bottom: 60px;
 
     h1 {
@@ -18,7 +18,11 @@
     }
   }
 
-  .prijslijst {
+  hr {
+    display: none;
+  }
+
+  .pricelist {
       width: 325px;
 
 
@@ -37,7 +41,7 @@
       }
   }
 
-  .prijslijst th:nth-child(2) {
+  .pricelist th:nth-child(2) {
     font-weight: normal;
     font-style: italic;
     font-size: small;
@@ -47,7 +51,7 @@
 
   }
 
-  .prijslijst-tekst {
+  .pricelist-tekst {
     margin-top: 305px ;
 
     p {
@@ -61,7 +65,7 @@
     text-align: right;
   }
 
-  .terug {
+  .back {
     display: none;
   }
 
@@ -74,20 +78,20 @@
 
 @media screen and (max-width: 779px) {
 
-  .prijslijst-container {
+  .pricelist-container {
     max-width: 400px;
   }
 
-  .prijslijst {
+  .pricelist {
     display: flex;
     flex-direction: column;
   }
 
-  .prijslijst-tekst {
+  .pricelist-tekst {
     margin-top: 50px;
   }
 
-  .prijslijst-tekst p {
+  .pricelist-tekst p {
     font-size: 12px;
   }
 
@@ -106,8 +110,20 @@
     border: none;
   }
 
-  .terug-container {
+  .back-container {
     position: absolute;
+    top: 50px;
+    left: -2px;
+    z-index: 300;
+    background: #0000004d;
+    padding: 10px 15px 10px 15px;
+    border-radius: 0 10px 10px 0px;
+  }
+
+  .back-container a {
+    text-decoration: none;
+    color: black;
+    font-style: normal;
   }
 
 }

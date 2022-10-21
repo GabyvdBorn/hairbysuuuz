@@ -15,12 +15,10 @@
 
     p {
     font-family: 'Work Sans', sans-serif;
+    }
   }
-  }
-
 
   .social .fa-instagram:before {
-    content: "\f16d";
     font-size: 24px;
     color: #0A0A0A;
     border: solid;
@@ -31,14 +29,13 @@
   }
 
   .social .fa-instagram:hover:before {
-    color: #0A0A0A;
-    background-color: #FCFCFC;
-    border: solid #FCFCFC;
+    color: #eaeaea;
+    background-color: transparent;
+    border: solid #eaeaea;
     transition: 0.4s;
   }
 
   .social .fa-facebook:before {
-    content: "\f09a";
     font-size: 24px;
     color: #0A0A0A;
     border: solid;
@@ -48,9 +45,25 @@
   }
 
   .social .fa-facebook:hover:before {
-    color: #313131;
-    background-color: #FCFCFC;
-    border: solid #FCFCFC;
+    color: #eaeaea;
+    background-color: transparent;
+    border: solid #eaeaea;
+    transition: 0.4s;
+  }
+
+  .social .fa-whatsapp:before {
+    font-size: 24px;
+    color: #0A0A0A;
+    border: solid;
+    border-radius: 25px;
+    padding: 8px;
+    margin: 35px 15px 0 15px;
+  }
+
+  .social .fa-whatsapp:hover:before {
+    color: #eaeaea;
+    background-color: transparent;
+    border: solid #eaeaea;
     transition: 0.4s;
   }
 
