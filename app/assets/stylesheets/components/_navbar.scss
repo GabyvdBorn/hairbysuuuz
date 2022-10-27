@@ -1,5 +1,5 @@
 
-@media screen and (min-width: 880px) {
+@media screen and (min-width: 780px) {
   .navbar-title {
     text-decoration: none;
 
@@ -55,7 +55,7 @@
       color: #FCFCFC;
       letter-spacing: 0.25rem;
       border: solid;
-      padding: 20px 25px 20px 25px;
+      padding: 20px 30px 20px 23px;
       border-radius: 10px 0 0 10px;
       -ms-writing-mode: tb-lr;
       writing-mode: vertical-rl;
@@ -68,7 +68,6 @@
 
   .bg-light {
     background-color: transparent !important;
-    position: fixed;
     z-index: 120;
     width: 100%;
   }

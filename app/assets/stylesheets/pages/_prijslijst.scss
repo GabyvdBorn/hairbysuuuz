@@ -112,17 +112,21 @@
 
   .back-container {
     position: absolute;
-    top: 50px;
-    left: -2px;
+    top: 62px;
+    right: 29px;
     z-index: 300;
-    background: #0000004d;
-    padding: 10px 15px 10px 15px;
-    border-radius: 0 10px 10px 0px;
+    background: #fcfcfcb3;
+    padding: 8px 18px 8px 18px;
+    border-radius: 5px;
   }
 
   .back-container a {
     text-decoration: none;
     color: black;
+    font-style: normal;
+  }
+
+  .back i {
     font-style: normal;
   }
 
