@@ -6,7 +6,7 @@ class PagesController < ApplicationController
   def about
   end
 
-  def prijslijst
+  def prijzen
   end
 
   def services
