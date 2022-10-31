@@ -1,4 +1,4 @@
-@media screen and (min-width: 780px) {
+@media screen and (min-width: 980px) {
 
   .pricelist-container {
     display: flex;
@@ -23,11 +23,11 @@
   }
 
   .pricelist {
-      width: 325px;
+      width: 250px;
 
 
       td {
-        width: 175px;
+        width: 150px;
         padding-bottom: 10px;
         white-space: nowrap;
         font-family: 'Work Sans', sans-serif;
@@ -76,7 +76,7 @@
 }
 
 
-@media screen and (max-width: 779px) {
+@media screen and (max-width: 979px) {
 
   .pricelist-container {
     max-width: 400px;
@@ -111,18 +111,18 @@
   }
 
   .back-container {
-    position: absolute;
-    top: 62px;
-    right: 29px;
+    position: relative;
+    left: 190px;
+    top: 5px;
     z-index: 300;
-    background: #fcfcfcb3;
-    padding: 8px 18px 8px 18px;
+    background-color: black ;
+    padding: 7px 15px 7px 15px;
     border-radius: 5px;
   }
 
   .back-container a {
     text-decoration: none;
-    color: black;
+    color: white;
     font-style: normal;
   }
 
