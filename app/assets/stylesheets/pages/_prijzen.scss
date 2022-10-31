@@ -1,0 +1,47 @@
+@media screen and (max-width: 480px) {
+
+  .pricelist-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+
+  .pricelist th:nth-child(2) {
+    font-weight: normal;
+    font-style: italic;
+    font-size: small;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+
+  }
+
+  td {
+    width: 150px;
+  }
+
+  td.numbers {
+    display: flex;
+    justify-content: flex-end;
+  }
+
+  th:nth-child(2) {
+    text-align: end;
+  }
+
+  .pricelist-tekst {
+
+    margin: 30px;
+
+    p {
+      font-size: 12px;
+    }
+
+  }
+
+
+
+
+
+}
