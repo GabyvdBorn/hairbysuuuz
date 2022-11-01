@@ -11,12 +11,6 @@
   <body>
 
         <% if current_page?(root_path) %>
-          <div class="hero-overlay">
-             <% else %>
-          <div class="hero-overlay-white">
-         <% end %>
-
-        <% if current_page?(root_path) %>
                   <div class="nav-bar-white">
                       <%= link_to root_path, class: "navbar-title" do %>
                         <p>Home</p>
@@ -28,7 +22,7 @@
              <% else %>
                   <div class="nav-bar-black">
                       <%= link_to root_path, class: "navbar-title" do %>
-                        <p>Terug</p>
+                        <p>terug</p>
                       <% end %>
                         <%= link_to prijzen_path, class: "navbar-title" do %>
                           <p>Prijzen</p>
@@ -40,10 +34,6 @@
         <div class="page-container">
           <%= yield %>
         </div>
-
-      </div>
-    </div>
-
 
   </body>
 </html>

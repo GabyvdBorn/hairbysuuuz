@@ -14,7 +14,8 @@
     position: relative;
     top: 36px;
     text-decoration: none;
-    color: #FCFCFC;
+    color: #bc8f8fd4;
+    background: #bc8f8fd4;
     letter-spacing: 2px;
     -ms-writing-mode: tb-rl;
     writing-mode: vertical-rl;
@@ -22,12 +23,12 @@
     border-bottom: solid;
     border-left: solid;
     border-top: solid;
-    border-radius: 10px 0px 0px 10px;
+    border-radius: 15px 0px 0px 15px;
     padding: 15px 5px;
   }
 
   .navbar-title p {
-    padding: 15px;
+    padding: 15px 15px;
     font-weight: 100;
     font-size: 16px;
     text-transform: uppercase;
@@ -42,17 +43,20 @@
     align-items: flex-end;
 
     .navbar-title {
+      position: fixed;
       border: none;
       padding: 0px;
-      top: 10px;
-      background: #0a0a0a96;
-      writing-mode: horizontal-tb;
-
+      top: -25px;
+      right: 0px;
+      background: #bc8f8f;
+      border-radius: 7px 0px 0px 7px;
     }
 
     p {
-      color: #FCFCFC;
+      color: black;
       font-weight: 200;
+      padding: 34px 12px;
+      font-size: 14px;
     }
   }
 
@@ -60,6 +64,15 @@
     display: none;
   }
 
+  th {
+    font-weight: 600;
+    font-size: 16px;
+  }
+
+  td {
+    font-weight: 300;
+    font-size: 14px;
+  }
 
 }
 
@@ -77,9 +90,10 @@
 
   .navbar-title {
     position: relative;
-    top: 36px;
+    top: 100px;
     text-decoration: none;
-    color: #FCFCFC;
+    color: #bc8f8fd4;
+    background: #bc8f8fd4;
     letter-spacing: 2px;
     -ms-writing-mode: tb-rl;
     writing-mode: vertical-rl;
@@ -92,7 +106,7 @@
   }
 
   .navbar-title p {
-    padding: 15px;
+    padding: 35px 20px ;
     font-weight: 100;
     font-size: 16px;
     text-transform: uppercase;
@@ -107,22 +121,34 @@
     align-items: flex-end;
 
     .navbar-title {
+      position: fixed;
       border: none;
       padding: 0px;
-      top: 10px;
-      background: #0a0a0a96;
-      writing-mode: horizontal-tb;
-
+      top: 50px;
+      right: 0px;
+      background: #bc8f8f;
+      border-radius: 7px 0px 0px 7px;
     }
 
     p {
-      color: #FCFCFC;
-      font-weight: 200;
+      color: black;
+      font-weight: 300;
+      padding: 60px 24px;
+      font-size: 16px;
+
     }
   }
 
   .nav-bar-black a:nth-child(2) {
     display: none;
+  }
+
+  th {
+    font-size: 18px;
+  }
+
+  td {
+    font-size: 16px;
   }
 
 }
@@ -143,7 +169,8 @@
     position: relative;
     top: 36px;
     text-decoration: none;
-    color: #fffffff7;
+    color: #bc8f8fd4;
+    background: #bc8f8fd4;
     letter-spacing: 2px;
     -ms-writing-mode: tb-rl;
     writing-mode: vertical-rl;
@@ -152,6 +179,7 @@
     border-left: solid;
     border-top: solid;
     border-radius: 10px 0px 0px 10px;
+
   }
 
   .navbar-title p {

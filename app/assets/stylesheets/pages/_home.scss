@@ -4,7 +4,7 @@
     display: flex;
     flex-direction: column;
     position: absolute;
-    bottom: 25px;
+    bottom: 10px;
     left: 16px;
     z-index: 120;
     color: #FCFCFC;
@@ -46,8 +46,10 @@
     display: flex;
     flex-direction: column;
     align-items: flex-end;
-    position: relative;
-    top: 45px;
+    position: absolute;
+    top: 250px;
+    margin-right: 16px;
+    right: 0px;
   }
 
   .socials :nth-child(4) {
@@ -94,25 +96,27 @@
     display: flex;
     flex-direction: column;
     position: absolute;
-    bottom: 20px;
-    left: 28px;
+    bottom: 16px;
+    left: 35px;
     z-index: 120;
     color: #FCFCFC;
 
     h1 {
-      font-size: 150px;
+      font-size: 175px;
       font-weight: 200;
       font-family: 'Work Sans', sans-serif;
       color: #FCFCFC;
     }
 
     h2 {
-      font-size: 20px;
+      font-size: 26px;
       letter-spacing: 2px;
       position: relative;
+      width: -webkit-fit-content;
+      width: -moz-fit-content;
       width: fit-content;
-      left: 250px;
-      top: 72px;
+      left: 284px;
+      top: 82px;
       text-transform: uppercase;
       font-weight: 200;
       font-family: 'Work Sans', sans-serif;
@@ -120,7 +124,7 @@
     }
 
     h3 {
-      font-size: 14px;
+      font-size: 20px;
       font-weight: 200;
       letter-spacing: 2px;
       position: absolute;
@@ -137,8 +141,10 @@
     display: flex;
     flex-direction: column;
     align-items: flex-end;
-    position: relative;
-    top: 45px;
+    position: absolute;
+    top: 360px;
+    margin-right: 20px;
+    right: 0px;
   }
 
   .socials :nth-child(4) {
@@ -229,6 +235,7 @@
     align-items: flex-end;
     position: relative;
     top: 45px;
+    margin-right: 16px;
   }
 
   .socials :nth-child(4) {
