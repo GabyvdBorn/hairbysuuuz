@@ -32,7 +32,8 @@
 
   .pricelist-tekst {
 
-    margin: 30px;
+    width: 300px;
+    margin-bottom: 32px;
 
     p {
       font-size: 12px;
@@ -40,8 +41,50 @@
 
   }
 
+}
+
+@media screen and (min-width:481px) and (max-width: 992px) {
+
+  .pricelist-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
 
 
+  .pricelist th:nth-child(2) {
+    font-weight: normal;
+    font-style: italic;
+    font-size: small;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
 
+  }
+
+  td {
+    width: 200px;
+  }
+
+  td.numbers {
+    display: flex;
+    justify-content: flex-end;
+  }
+
+  th:nth-child(2) {
+    text-align: end;
+  }
+
+  .pricelist-tekst {
+
+    width: 400px;
+    margin-bottom: 32px;
+
+    p {
+      font-size: 12px;
+    }
+
+  }
 
 }
+
