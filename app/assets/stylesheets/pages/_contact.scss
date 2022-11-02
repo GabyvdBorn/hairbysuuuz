@@ -1,0 +1,83 @@
+@media screen and (max-width: 480px) {
+  .contact-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-bottom: 50px;
+    margin-top: 25px;
+    width: 90%;
+
+    h1 {
+    color: #FCFCFC;
+    letter-spacing: 8px;
+    text-transform: uppercase;
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 300;
+    font-size: 20px;
+    margin-bottom: 40px;
+    margin-top: 25px;
+    background: #bc8f8f;
+    padding: 5px 10px 5px 20px;
+    width: fit-content;
+    }
+
+    h2 {
+      font-size: 18px;
+      letter-spacing: 4px;
+      font-weight: 400;
+    }
+
+    p {
+      font-weight: 300;
+      font-size: 14px;
+    }
+
+    .socials {
+      display: flex;
+      flex-direction: row;
+      align-items: flex-end;
+      position: relative;
+      top: 25px;
+      left: 25%;
+
+      .social-icon {
+        margin-right: 16px;
+        margin-bottom: 35px;
+      }
+    }
+  }
+
+  .contact-exicting {
+    background: #ffffffc2;
+    padding: 48px 24px;
+    border-radius: 7px;
+    width: 85%;
+    margin-bottom: 50px;
+  }
+
+  .contact-new {
+    background: #ffffffc2;
+    padding: 48px 24px;
+    border-radius: 5px;
+    width: 100%;
+  }
+
+
+
+  .vol-tag {
+    height: 0px;
+
+    p {
+    color: white;
+    width: fit-content;
+    background: black;
+    padding: 5px 35px;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    position: relative;
+    top: -40px;
+    left: -54px;
+    rotate: -45deg;
+    }
+  }
+}

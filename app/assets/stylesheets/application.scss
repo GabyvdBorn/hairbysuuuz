@@ -18,7 +18,9 @@
   align-items: center;
 }
 
-
+h1, h2, th, td, p {
+  font-family: 'Work Sans', sans-serif;
+}
 
 @media screen and (max-width: 480px) {
 
@@ -33,6 +35,8 @@
 
   p {
     margin: 0px;
+    font-size: 14px;
+    letter-spacing: 1px;
   }
 
 }

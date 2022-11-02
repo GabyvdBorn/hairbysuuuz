@@ -1,27 +1,43 @@
 
 
 
-<div class="contact-container">
-  <div class="contact-header">
-    <h1>Een vraag, suggestie of feedback? Ik hoor het graag.</h1>
-  </div>
 
-  <div class="contac-text">
-    <p>Stuur mij een mail: hairbysuuz@gmail.com</p>
-    <p>Of stuur een WhatsApp berichtje naar +31623945141 </p>
-    <p>Je kan mij natuurlijk ook contact via mijn Soical Media.</p>
-    <p>Liefs Suuz</p>
-  </div>
+  <div class="contact-container">
+    <h1>Afspraak</h1>
+      <div class="contact-exicting">
+      <h2>Bestaande klant</h2>
+        <p>Neem dan contact op via Whatsapp of via een van mijn social medias om een afspraak te maken.
+        </p>
+      </div>
 
-  <div class="social">
-    <%= link_to "https://www.facebook.com/HairbySuuz", target: '_blank' , class: "navbar-title" do %>
-      <i class="fa-brands fa-facebook"></i>
-    <% end %>
-    <%= link_to "https://www.facebook.com/HairbySuuz", target: '_blank' , class: "navbar-title" do %>
-      <i class="fa-brands fa-whatsapp"></i>
-    <% end %>
-      <%= link_to "https://www.instagram.com/hairbysuuz/", target: '_blank' , class: "navbar-title" do %>
+    <div class="contact-new">
+      <div class="vol-tag">
+        <p>vol</p>
+      </div>
+      <h2>Nieuw</h2>
+        <p>Niew? Dan moet ik helaas vermelden dat ik momenteel geen nieuwe klanten aanneem. Je kan mij uiteraard altijd een berichtje sturen om intresse te tonen en ik contact met je kan opnemen wanneer er een plekje vrij komt.
+        </p>
+    </div>
+    <div class="socials">
+    <div class="social-icon">
+      <%= link_to "#", target: '_blank' do %>
+        <i class="fa-brands fa-whatsapp"></i>
+      <% end %>
+    </div>
+    <div class="social-icon">
+    <%= link_to "https://www.instagram.com/hairbysuuz/", target: '_blank' do %>
       <i class="fa-brands fa-instagram"></i>
     <% end %>
+    </div>
+    <div class="social-icon">
+      <%= link_to "https://www.facebook.com/HairbySuuz", target: '_blank' do %>
+        <i class="fa-brands fa-facebook"></i>
+      <% end %>
+      </div>
+    <div class="social-icon">
+      <%= link_to contact_path do %>
+        <h1>whatsapp</h1>
+      <% end %>
+      </div>
   </div>
-</div>
+  </div>

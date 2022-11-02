@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Hairbysuuz</title>
+    <title>Hair by Suuz</title>
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <%= csrf_meta_tags %>
     <%= csp_meta_tag %>
@@ -12,12 +12,13 @@
 
         <% if current_page?(root_path) %>
                   <div class="nav-bar-white">
-                      <%= link_to root_path, class: "navbar-title" do %>
-                        <p>Home</p>
-                      <% end %>
-                        <%= link_to prijzen_path, class: "navbar-title" do %>
+                  <%= link_to prijzen_path, class: "navbar-title" do %>
                           <p>Prijzen</p>
                         <% end %>
+                      <%= link_to contact_path, class: "navbar-title" do %>
+                        <p>Afpraak</p>
+                      <% end %>
+
                   </div>
              <% else %>
                   <div class="nav-bar-black">
