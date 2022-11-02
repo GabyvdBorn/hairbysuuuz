@@ -6,31 +6,30 @@
     align-items: flex-end;
   }
 
-   .nav-bar-white a:nth-child(1) {
-    display: none;
-  }
+   //.nav-bar-white a:nth-child(1) {
+   // display: none;
+  //}
 
   .navbar-title {
     position: relative;
-    top: 36px;
+    top: 25px;
     text-decoration: none;
     color: #bc8f8fd4;
     background: #bc8f8fd4;
     letter-spacing: 2px;
     -ms-writing-mode: tb-rl;
     writing-mode: vertical-rl;
-    margin-top: 50px;
+    margin-top: 16px;
     border-bottom: solid;
     border-left: solid;
     border-top: solid;
     border-radius: 15px 0px 0px 15px;
-    padding: 15px 5px;
   }
 
   .navbar-title p {
-    padding: 15px 15px;
+    padding: 15px 28px 10px 15px;
     font-weight: 100;
-    font-size: 16px;
+    font-size: 14px;
     text-transform: uppercase;
     letter-spacing: 4px;
     color: #FCFCFC;
@@ -46,14 +45,14 @@
       position: fixed;
       border: none;
       padding: 0px;
-      top: -25px;
+      top: 140px;
       right: 0px;
-      background: #bc8f8f;
-      border-radius: 7px 0px 0px 7px;
+      background: #0d0d0d;
+      border-radius: 5px 0px 0px 5px;
     }
 
     p {
-      color: black;
+      color: #FCFCFC;
       font-weight: 200;
       padding: 34px 12px;
       font-size: 14px;
@@ -66,7 +65,7 @@
 
   th {
     font-weight: 600;
-    font-size: 16px;
+    font-size: 14px;
   }
 
   td {
@@ -84,9 +83,9 @@
     align-items: flex-end;
   }
 
-   .nav-bar-white a:nth-child(1) {
-    display: none;
-  }
+   //.nav-bar-white a:nth-child(1) {
+   // display: none;
+  //}
 
   .navbar-title {
     position: relative;
@@ -102,11 +101,10 @@
     border-left: solid;
     border-top: solid;
     border-radius: 10px 0px 0px 10px;
-    padding: 15px 5px;
   }
 
   .navbar-title p {
-    padding: 35px 20px ;
+    padding: 35px 20px;
     font-weight: 100;
     font-size: 16px;
     text-transform: uppercase;
@@ -131,7 +129,7 @@
     }
 
     p {
-      color: black;
+      color: #0d0d0d;
       font-weight: 300;
       padding: 60px 24px;
       font-size: 16px;
@@ -145,10 +143,12 @@
 
   th {
     font-size: 18px;
+    font-weight: 200;
   }
 
   td {
     font-size: 16px;
+    font-weight: 500;
   }
 
 }
@@ -161,9 +161,9 @@
     align-items: flex-end;
   }
 
-   .nav-bar-white a:nth-child(1) {
-    display: none;
-  }
+   //.nav-bar-white a:nth-child(1) {
+   // display: none;
+  //}
 
   .navbar-title {
     position: relative;

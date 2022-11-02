@@ -47,7 +47,7 @@
     flex-direction: column;
     align-items: flex-end;
     position: absolute;
-    top: 250px;
+    top: 295px;
     margin-right: 16px;
     right: 0px;
   }
@@ -58,34 +58,37 @@
 
 
   .social-icon {
-    margin: 20px 0px;
+    margin-top: 35px;
 
   }
 
   .fa-instagram:before {
     content: "\f16d";
-    font-size: 25px;
-    color: #FCFCFC;
+    font-size: 24px;
+    color: #fcfcfcc2;
     border: solid;
     border-radius: 30px;
     padding: 10px 11px;
+    background: #0000007d;
   }
 
   .fa-facebook:before {
     content: "\f09a";
-    font-size: 28px;
-    color: #FCFCFC;
+    font-size: 27px;
+    color: #fcfcfcc2;
     border: solid;
     border-radius: 25px;
     padding: 9px;
+    background: #0000007d;
   }
 
   .fa-whatsapp:before {
     font-size: 28px;
-    color: #FCFCFC;
+    color: #fcfcfcc2;
     border: solid;
     border-radius: 25px;
     padding: 9px;
+    background: #0000007d;
   }
 
 }
@@ -160,27 +163,30 @@
   .fa-instagram:before {
     content: "\f16d";
     font-size: 25px;
-    color: #FCFCFC;
+    color: #fcfcfcc2;
     border: solid;
     border-radius: 30px;
     padding: 10px 11px;
+    background: #0000007d;
   }
 
   .fa-facebook:before {
     content: "\f09a";
     font-size: 28px;
-    color: #FCFCFC;
+    color: #fcfcfcc2;
     border: solid;
     border-radius: 25px;
     padding: 9px;
+    background: #0000007d;
   }
 
   .fa-whatsapp:before {
     font-size: 28px;
-    color: #FCFCFC;
+    color: #fcfcfcc2;
     border: solid;
     border-radius: 25px;
     padding: 9px;
+    background: #0000007d;
   }
 
 }
