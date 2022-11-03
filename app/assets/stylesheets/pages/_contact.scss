@@ -2,23 +2,9 @@
   .contact-container {
     display: flex;
     flex-direction: column;
-    align-items: flex-start;
+    align-items: center;
     margin-top: 25px;
-    width: 90%;
-
-    h1 {
-    color: #FCFCFC;
-    letter-spacing: 8px;
-    text-transform: uppercase;
-    font-family: 'Work Sans', sans-serif;
-    font-weight: 300;
-    font-size: 20px;
-    margin-bottom: 40px;
-    margin-top: 45px;
-    background: #bc8f8f;
-    padding: 5px 10px 5px 20px;
-    width: fit-content;
-    }
+    width: 85%;
 
     h2 {
       font-size: 18px;
@@ -30,8 +16,22 @@
       font-weight: 300;
       font-size: 14px;
     }
+  }
 
+  .contact-header {
+    margin-top: 50px;
 
+    h1 {
+      color: #FCFCFC;
+      letter-spacing: 8px;
+      text-transform: uppercase;
+      font-family: 'Work Sans', sans-serif;
+      font-weight: 300;
+      font-size: 20px;
+      background: #bc8f8f;
+      padding: 5px 10px 5px 20px;
+      width: fit-content;
+      }
   }
 
   .socials-horizon {
@@ -41,7 +41,7 @@
     position: unset;
     width: 85%;
     justify-content: space-evenly;
-    margin-bottom: 50px;
+    margin: 35px 0;
 
     .social-icon {
       margin-top: 0px;
@@ -53,8 +53,7 @@
     background: #ffffffc2;
     padding: 48px 24px;
     border-radius: 5px;
-    width: 85%;
-    margin-bottom: 50px;
+    width: 100%;
   }
 
   .contact-new {
@@ -74,6 +73,7 @@
     color: white;
     width: fit-content;
     background: black;
+    font-weight: 400;
     padding: 5px 35px;
     letter-spacing: 4px;
     text-transform: uppercase;
@@ -81,6 +81,184 @@
     top: -40px;
     left: -54px;
     rotate: -45deg;
+    }
+  }
+}
+
+@media screen and (min-width:481px) and (max-width: 992px) {
+  .contact-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+    width: 75%;
+
+    h2 {
+      font-size: 18px;
+      letter-spacing: 4px;
+      font-weight: 400;
+    }
+
+    p {
+      font-weight: 300;
+      font-size: 16px;
+    }
+
+
+  }
+
+  .contact-header {
+    margin-top: 100px;
+
+    h1 {
+      color: #FCFCFC;
+      letter-spacing: 8px;
+      text-transform: uppercase;
+      font-family: 'Work Sans', sans-serif;
+      font-weight: 300;
+      font-size: 20px;
+      background: #bc8f8f;
+      padding: 15px 20px 15px 30px;
+      width: fit-content;
+      }
+  }
+
+  .socials-horizon {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    position: unset;
+    width: 85%;
+    justify-content: space-evenly;
+    margin: 50px 0 30px 0;
+
+    .social-icon {
+      margin-top: 0px;
+    }
+
+  }
+
+  .contact-exicting {
+    background: #ffffffc2;
+    padding: 48px;
+    border-radius: 5px;
+    width: 100%;
+  }
+
+  .contact-new {
+    background: #ffffffc2;
+    padding: 48px;
+    border-radius: 5px;
+    width: 100%;
+    margin-bottom: 50px;
+  }
+
+
+
+  .vol-tag {
+    height: 0px;
+
+    p {
+      color: white;
+      width: fit-content;
+      background: black;
+      font-weight: 400;
+      padding: 10px 45px;
+      letter-spacing: 4px;
+      text-transform: uppercase;
+      position: relative;
+      top: -35px;
+      left: -85px;
+      rotate: -45deg;
+    }
+  }
+}
+
+@media screen and (min-width:993px) {
+  .contact-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 75%;
+    margin-top: 50px;
+
+    h2 {
+      font-size: 18px;
+      letter-spacing: 4px;
+      font-weight: 400;
+    }
+
+    p {
+      font-weight: 300;
+      font-size: 16px;
+    }
+
+
+  }
+
+  .contact-header {
+    margin-top: 150px;
+
+    h1 {
+      color: #FCFCFC;
+      letter-spacing: 8px;
+      text-transform: uppercase;
+      font-family: 'Work Sans', sans-serif;
+      font-weight: 300;
+      font-size: 20px;
+      background: #bc8f8f;
+      padding: 10px 40px 10px 50px;
+      width: fit-content;
+      }
+  }
+
+  .socials-horizon {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    position: unset;
+    width: 85%;
+    justify-content: space-evenly;
+    margin: 50px 0 30px 0;
+
+    .social-icon {
+      margin-top: 0px;
+    }
+
+  }
+
+  .contact-exicting {
+    background: #ffffffc2;
+    padding: 48px;
+    border-radius: 5px;
+    width: 100%;
+  }
+
+  .contact-new {
+    background: #ffffffc2;
+    padding: 48px;
+    border-radius: 5px;
+    width: 100%;
+    margin-bottom: 50px;
+  }
+
+
+
+  .vol-tag {
+    height: 0px;
+
+    p {
+      color: white;
+      width: fit-content;
+      background: black;
+      font-weight: 400;
+      padding: 10px 45px;
+      letter-spacing: 4px;
+      text-transform: uppercase;
+      position: relative;
+      top: -35px;
+      left: -85px;
+      rotate: -45deg;
     }
   }
 }

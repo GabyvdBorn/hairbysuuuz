@@ -14,8 +14,8 @@
     position: relative;
     top: 25px;
     text-decoration: none;
-    color: #bc8f8fd4;
-    background: #bc8f8fd4;
+    color: #bc8f8f;
+    background: #bc8f8f;
     letter-spacing: 2px;
     -ms-writing-mode: tb-rl;
     writing-mode: vertical-rl;
@@ -23,11 +23,11 @@
     border-bottom: solid;
     border-left: solid;
     border-top: solid;
-    border-radius: 15px 0px 0px 15px;
+    border-radius: 5px 0px 0px 5px;
   }
 
   .navbar-title p {
-    padding: 15px 28px 10px 15px;
+    padding: 20px 28px 15px 15px;
     font-weight: 100;
     font-size: 14px;
     text-transform: uppercase;
@@ -91,8 +91,8 @@
     position: relative;
     top: 100px;
     text-decoration: none;
-    color: #bc8f8fd4;
-    background: #bc8f8fd4;
+    color: #bc8f8f;
+    background: #bc8f8f;
     letter-spacing: 2px;
     -ms-writing-mode: tb-rl;
     writing-mode: vertical-rl;
@@ -100,7 +100,7 @@
     border-bottom: solid;
     border-left: solid;
     border-top: solid;
-    border-radius: 10px 0px 0px 10px;
+    border-radius: 5px 0px 0px 5px;
   }
 
   .navbar-title p {
@@ -122,17 +122,18 @@
       position: fixed;
       border: none;
       padding: 0px;
-      top: 50px;
+      top: 100px;
       right: 0px;
       background: #bc8f8f;
       border-radius: 7px 0px 0px 7px;
     }
 
     p {
-      color: #0d0d0d;
+      color: #FCFCFC;
       font-weight: 300;
-      padding: 60px 24px;
+      padding: 40px 20px;
       font-size: 16px;
+      letter-spacing: 8px;
 
     }
   }
@@ -169,12 +170,12 @@
     position: relative;
     top: 36px;
     text-decoration: none;
-    color: #bc8f8fd4;
-    background: #bc8f8fd4;
+    color: #bc8f8f;
+    background: #bc8f8f;
     letter-spacing: 2px;
     -ms-writing-mode: tb-rl;
     writing-mode: vertical-rl;
-    margin-top: 75px;
+    margin-top: 25px;
     border-bottom: solid;
     border-left: solid;
     border-top: solid;
@@ -183,7 +184,7 @@
   }
 
   .navbar-title p {
-    padding: 35px 22px;
+    padding: 25px 22px;
     font-weight: 100;
     font-size: 16px;
     text-transform: uppercase;
@@ -199,20 +200,20 @@
   }
 
   .nav-bar-white a:hover {
-    color: #bc8f8fd4;
-    background: #bc8f8fd4;
+    color: #bc8f8f;
+    background: #bc8f8f;
   }
 
   .nav-bar-white p:hover {
     color: white;
-    padding: 35px 35px;
+    padding: 25px 35px;
   }
 
   .nav-bar-black {
     display: flex;
     flex-direction: column;
     align-items: flex-end;
-    height: 160px;
+    height: 0px;
 
     .navbar-title {
       position: relative;
