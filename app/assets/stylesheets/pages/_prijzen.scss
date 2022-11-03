@@ -6,27 +6,32 @@
     align-items: center;
     margin-bottom: 50px;
     margin-top: 25px;
-    width: 90%;
+    width: 85%;
 
-    h1 {
+  }
+
+  .price-header {
+
+    margin-top: 50px;
+
+  h1 {
       color: #FCFCFC;
       letter-spacing: 8px;
       text-transform: uppercase;
       font-family: 'Work Sans', sans-serif;
       font-weight: 300;
       font-size: 20px;
-      margin-bottom: 40px;
-      margin-top: 25px;
       background: #bc8f8f;
       padding: 8px 10px 8px 20px;
+      border-radius: 5px;
     }
   }
-
 
   .pricelist {
     background: #ffffffc2;
     padding: 24px;
-    border-radius: 7px;
+    border-radius: 5px;
+    width: 100%;
   }
 
 
@@ -73,31 +78,33 @@
     flex-direction: column;
     align-items: center;
     margin-bottom: 50px;
-    margin-top: 100px;
-    width: 90%;
+    margin-top: 50px;
+    width: 75%;
+  }
 
-    h1 {
+  .price-header {
+
+    margin-top: 100px;
+
+  h1 {
       color: #FCFCFC;
       letter-spacing: 8px;
       text-transform: uppercase;
       font-family: 'Work Sans', sans-serif;
       font-weight: 300;
       font-size: 20px;
-      margin-bottom: 40px;
-      margin-top: 25px;
       background: #bc8f8f;
       padding: 8px 10px 8px 20px;
+      border-radius: 5px;
     }
-
   }
-
 
 
   .pricelist {
     background: #ffffffc2;
     padding: 24px;
-    border-radius: 15px;
-    width: 80%;
+    border-radius: 10px;
+    width: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -157,18 +164,25 @@
     align-items: baseline;
     justify-content: space-evenly;
     width: 90%;
+    margin-top: 50px;
   }
 
 
 
-  .pricelist-header {
-    margin-bottom: 60px;
+  .price-header {
 
-    h1 {
-      display: flex;
-      margin-left: 85px;
-      width: 100%;
+    margin-top: 100px;
+
+  h1 {
+      color: #FCFCFC;
+      letter-spacing: 8px;
+      text-transform: uppercase;
       font-family: 'Work Sans', sans-serif;
+      font-weight: 300;
+      font-size: 20px;
+      background: #bc8f8f;
+      padding: 10px 40px 10px 50px;
+      border-radius: 5px;
     }
   }
 
@@ -191,6 +205,7 @@
         width: 115px;
         padding-bottom: 5px;
         font-weight: 200;
+        font-size: 16px;
         white-space: nowrap;
         font-family: 'Work Sans', sans-serif;
       }
