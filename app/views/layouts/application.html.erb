@@ -12,13 +12,12 @@
 
         <% if current_page?(root_path) %>
                   <div class="nav-bar-white">
-                  <%= link_to prijzen_path, class: "navbar-title" do %>
+                    <%= link_to prijzen_path, class: "navbar-title" do %>
                           <p>Prijzen</p>
                         <% end %>
                       <%= link_to contact_path, class: "navbar-title" do %>
                         <p>Afpraak</p>
-                      <% end %>
-
+                    <% end %>
                   </div>
              <% else %>
                   <div class="nav-bar-black">
@@ -29,12 +28,18 @@
                           <p>Prijzen</p>
                         <% end %>
                   </div>
-            <% end %>
+              <% end %>
+      <div class="page-container">
+        <%= yield %>
+      </div>
 
-
-        <div class="page-container">
-          <%= yield %>
-        </div>
+    <% unless current_page?(root_path) %>
+      <footer class="bg-light text-center text-lg-start">
+      <div class="text-center p-2" style="background-color: transparant; color: #fcfcfc8f; letter-spacing: 4px; font-size: 10px; font-family: 'Work Sans', sans-serif;">
+        © 2022 - DifferentEye
+      </div>
+    </footer>
+    <% end %>
 
   </body>
 </html>
