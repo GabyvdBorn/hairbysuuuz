@@ -90,7 +90,6 @@
     padding: 9px 11px;
     background: #0000007d;
   }
-
 }
 
 @media screen and (min-width:481px) and (max-width: 992px) {
@@ -188,6 +187,10 @@
     padding: 9px;
     background: #0000007d;
   }
+
+  .bg-light {
+    background-color: transparent;
+}
 
 }
 
