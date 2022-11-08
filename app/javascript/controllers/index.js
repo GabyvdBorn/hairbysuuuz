@@ -6,9 +6,3 @@ import { application } from "./application"
 
 import HelloController from "./hello_controller"
 application.register("hello", HelloController)
-
-import Carousel from "stimulus-carousel"
-
-
-const application = Application.start()
-application.register("carousel", Carousel)
