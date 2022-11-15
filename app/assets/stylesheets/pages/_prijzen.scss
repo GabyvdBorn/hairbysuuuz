@@ -109,7 +109,7 @@
 
   .pricelist {
     background: #fcfcfcc2;
-    padding: 24px;
+    padding: 45px;
     border-radius: 10px;
     width: 100%;
     display: flex;
@@ -155,11 +155,12 @@
 
   .pricelist-text {
 
-    width: 395px;
+    width: 100%;
     margin-top: 20px;
 
     p {
       font-size: 12px;
+      font-weight: 100;
     }
 
   }
