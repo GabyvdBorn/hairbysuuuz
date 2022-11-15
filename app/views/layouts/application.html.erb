@@ -31,14 +31,12 @@
               <% end %>
       <div class="page-container">
         <%= yield %>
+          <% if current_page?(contact_path) %>
+            <footer class="footer">
+              © 2022 - DifferentEye
+            </div>
+          </footer>
+          <% end %>
       </div>
-
-    <% unless current_page?(root_path) %>
-      <footer class="bg-light text-center text-lg-start">
-      <div class="text-center p-2" style="background-color: transparant; color: #fcfcfc8f; letter-spacing: 4px; font-size: 10px; font-family: 'Work Sans', sans-serif;">
-        © 2022 - DifferentEye
-      </div>
-    </footer>
-    <% end %>
   </body>
 </html>
