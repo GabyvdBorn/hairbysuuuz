@@ -15,8 +15,8 @@
     position: relative;
     top: 25px;
     text-decoration: none;
-    color: #bc8f8f;
-    background: #bc8f8f;
+    color: #bc8f8fa6;
+    background: #bc8f8fa6;
     letter-spacing: 2px;
     -ms-writing-mode: tb-rl;
     writing-mode: vertical-rl;
@@ -74,7 +74,7 @@
 
   td {
     font-weight: 300;
-    font-size: 14px;
+    font-size: 16px;
   }
 
 }
@@ -96,8 +96,8 @@
     position: relative;
     top: 100px;
     text-decoration: none;
-    color: #bc8f8f;
-    background: #bc8f8f;
+    color: #bc8f8fa6;
+    background: #bc8f8fa6;
     letter-spacing: 2px;
     -ms-writing-mode: tb-rl;
     writing-mode: vertical-rl;
@@ -129,7 +129,7 @@
       padding: 0px;
       top: 100px;
       right: 0px;
-      background: #bc8f8f;
+      background: #bc8f8fa6;
       border-radius: 7px 0px 0px 7px;
     }
 
@@ -176,8 +176,8 @@
     position: relative;
     top: 36px;
     text-decoration: none;
-    color: #bc8f8f;
-    background: #bc8f8f;
+    color: #bc8f8fa6;
+    background: #bc8f8fa6;
     letter-spacing: 2px;
     -ms-writing-mode: tb-rl;
     writing-mode: vertical-rl;
@@ -185,12 +185,12 @@
     border-bottom: solid;
     border-left: solid;
     border-top: solid;
-    border-radius: 15px 0px 0px 15px;
+    border-radius: 10px 0px 0px 10px;
 
   }
 
   .navbar-title p {
-    padding: 25px 22px;
+    padding: 20px 20px;
     font-weight: 100;
     font-size: 16px;
     text-transform: uppercase;
@@ -212,7 +212,7 @@
 
   .nav-bar-white p:hover {
     color: white;
-    padding: 25px 35px;
+    padding: 20px 30px;
   }
 
   .nav-bar-black {
@@ -225,8 +225,8 @@
       position: relative;
       top: 36px;
       text-decoration: none;
-      color: #bc8f8f;
-      background: #bc8f8f;
+      color: #bc8f8fa6;
+      background: #bc8f8fa6;
       letter-spacing: 2px;
       -ms-writing-mode: tb-rl;
       writing-mode: vertical-rl;
@@ -234,13 +234,13 @@
       border-bottom: solid;
       border-left: solid;
       border-top: solid;
-      border-radius: 15px 0px 0px 15px;
+      border-radius: 10px 0px 0px 10px;
     }
 
     p {
       color: #fffffff7;
       font-weight: 200;
-      padding: 43px 22px;
+      padding: 29px 20px;
     }
   }
 
@@ -251,7 +251,7 @@
 
   .nav-bar-black p:hover {
     color: white;
-    padding: 43px 30px;;
+    padding: 29px 30px;;
   }
 
   .nav-bar-black a:nth-child(2) {

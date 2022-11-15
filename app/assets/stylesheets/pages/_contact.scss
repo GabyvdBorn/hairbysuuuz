@@ -28,7 +28,7 @@
       font-family: 'Work Sans', sans-serif;
       font-weight: 300;
       font-size: 20px;
-      background: #bc8f8f;
+      background: #bc8f8fa6;
       padding: 5px 10px 5px 20px;
       width: fit-content;
       border-radius: 5px;
@@ -57,6 +57,13 @@
     border-radius: 5px;
     width: 100%;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+    p {
+    font-size: 16px;
+    font-weight: 200;
+
+    }
+
   }
 
   .contact-new {
@@ -65,6 +72,11 @@
     border-radius: 5px;
     width: 100%;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+    p {
+      font-size: 16px;
+      font-weight: 200;
+    }
   }
 
 
@@ -87,6 +99,14 @@
     border-radius: 5px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     }
+  }
+
+  .footer {
+    color: #fcfcfc59;
+    font-size: 10px;
+    position: absolute;
+    bottom: 0;
+    height: 30px;
   }
 }
 
@@ -122,7 +142,7 @@
       font-family: 'Work Sans', sans-serif;
       font-weight: 300;
       font-size: 20px;
-      background: #bc8f8f;
+      background: #bc8f8fa6;
       padding: 15px 20px 15px 30px;
       width: fit-content;
       border-radius: 5px;
@@ -183,6 +203,14 @@
       box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     }
   }
+
+  .footer {
+    color: #fcfcfc59;
+    font-size: 10px;
+    position: absolute;
+    bottom: 0;
+    height: 30px;
+  }
 }
 
 @media screen and (min-width:993px) {
@@ -217,7 +245,7 @@
       font-family: 'Work Sans', sans-serif;
       font-weight: 300;
       font-size: 20px;
-      background: #bc8f8f;
+      background: #bc8f8fa6;
       padding: 10px 40px 10px 50px;
       width: fit-content;
       border-radius: 5px;
@@ -232,7 +260,7 @@
     position: unset;
     width: 85%;
     justify-content: space-evenly;
-    margin: 50px 0 30px 0;
+    margin: 50px 0 75px 0;
 
     .social-icon {
       margin-top: 0px;
